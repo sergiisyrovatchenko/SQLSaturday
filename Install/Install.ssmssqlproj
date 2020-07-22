@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Install">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="HOMEPC\SQL_2008R2_EXP:HomePC\PC">
+          <Created>2018-04-01T20:56:08.7211088+03:00</Created>
+          <Type>SQL</Type>
+          <Server>HOMEPC\SQL_2008R2_EXP</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="HOMEPC\SQL_2014:HomePC\PC">
+          <Created>2018-04-01T22:37:47.8980478+03:00</Created>
+          <Type>SQL</Type>
+          <Server>HOMEPC\SQL_2014</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="HOMEPC\SQL_2016:HomePC\PC">
+          <Created>2018-04-01T21:48:26.9873774+03:00</Created>
+          <Type>SQL</Type>
+          <Server>HOMEPC\SQL_2016</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="HOMEPC\SQL_2017:HomePC\PC">
+          <Created>2018-04-01T20:53:16.0268522+03:00</Created>
+          <Type>SQL</Type>
+          <Server>HOMEPC\SQL_2017</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="00 - before start.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>00 - before start.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01 - edition.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01 - edition.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02 - install.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02 - install.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03 - tools.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03 - tools.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04 - antivirus.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04 - antivirus.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05 - SP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2008R2_EXP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2008R2_EXP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05 - SP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06 - log and cache.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06 - log and cache.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07 - system backup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07 - system backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08 - firewall.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08 - firewall.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09 - network encryption.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09 - network encryption.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10 - SQLServerBrowser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10 - SQLServerBrowser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11 - SQLWriter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11 - SQLWriter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12 - permission.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12 - permission.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13 - Database Mail.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13 - Database Mail.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14 - DAC.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14 - DAC.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15 - xp_cmdshell vs security.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15 - xp_cmdshell vs security.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16 - backup compression.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16 - backup compression.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17 - Instant File Initialization.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17 - Instant File Initialization.sql</FullPath>
+        </FileNode>
+        <FileNode Name="18 - delayed durability.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>18 - delayed durability.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19 - max server memory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>19 - max server memory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20 - ad hoc workloads.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20 - ad hoc workloads.sql</FullPath>
+        </FileNode>
+        <FileNode Name="21 - parallelism.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>21 - parallelism.sql</FullPath>
+        </FileNode>
+        <FileNode Name="22 - wait stats.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>22 - wait stats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="23 - scoped config.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>23 - scoped config.sql</FullPath>
+        </FileNode>
+        <FileNode Name="24 - system files.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>24 - system files.sql</FullPath>
+        </FileNode>
+        <FileNode Name="25 - model.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>25 - model.sql</FullPath>
+        </FileNode>
+        <FileNode Name="26 - express edition.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2008R2_EXP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2008R2_EXP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>26 - express edition.sql</FullPath>
+        </FileNode>
+        <FileNode Name="27 - tempdb.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>27 - tempdb.sql</FullPath>
+        </FileNode>
+        <FileNode Name="28 - T1118.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>28 - T1118.sql</FullPath>
+        </FileNode>
+        <FileNode Name="29 - T1117.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>29 - T1117.sql</FullPath>
+        </FileNode>
+        <FileNode Name="30 - T2371.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>30 - T2371.sql</FullPath>
+        </FileNode>
+        <FileNode Name="31 - T2453.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>31 - T2453.sql</FullPath>
+        </FileNode>
+        <FileNode Name="32 - T3226.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>32 - T3226.sql</FullPath>
+        </FileNode>
+        <FileNode Name="33 - T1222.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>33 - T1222.sql</FullPath>
+        </FileNode>
+        <FileNode Name="34 - T610.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>34 - T610.sql</FullPath>
+        </FileNode>
+        <FileNode Name="35 - backup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>35 - backup.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

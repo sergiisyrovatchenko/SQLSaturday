@@ -1,0 +1,27 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:sql="urn:schemas-microsoft-com:mapping-schema">
+   <xsd:element name="users" sql:is-constant="1" >
+     <xsd:complexType>
+       <xsd:sequence>
+         <xsd:element name="row" sql:relation="Users" maxOccurs="unbounded">
+            <xsd:complexType>
+               <xsd:attribute name="Id" type="xsd:integer" />
+               <xsd:attribute name="Reputation" type="xsd:integer" />
+               <xsd:attribute name="CreationDate" type="xsd:dateTime" sql:datatype="DATETIME" />
+               <xsd:attribute name="DisplayName" type="xsd:string" />
+               <xsd:attribute name="LastAccessDate" type="xsd:dateTime" sql:datatype="DATETIME" />
+               <xsd:attribute name="WebsiteUrl" type="xsd:string" />
+               <xsd:attribute name="Location" type="xsd:string" />
+               <xsd:attribute name="AboutMe" type="xsd:string" />
+               <xsd:attribute name="Views" type="xsd:integer" />
+               <xsd:attribute name="UpVotes" type="xsd:integer" />
+               <xsd:attribute name="DownVotes" type="xsd:integer" />
+               <xsd:attribute name="ProfileImageUrl" type="xsd:string" sql:mapped="false" />
+               <xsd:attribute name="EmailHash" type="xsd:string" sql:mapped="false" />
+               <xsd:attribute name="Age" type="xsd:integer" />
+               <xsd:attribute name="AccountId" type="xsd:integer" sql:mapped="false" />
+            </xsd:complexType>
+         </xsd:element>
+       </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

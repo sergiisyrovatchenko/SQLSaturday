@@ -1,0 +1,121 @@
+/*
+    http://www.sqlservercentral.com/articles/Administration/100856/
+*/
+
+USE [master]
+GO
+
+IF OBJECT_ID('tempdb.dbo.#item') IS NOT NULL
+    DROP TABLE #item
+GO
+
+CREATE TABLE #item (
+      id TINYINT IDENTITY
+    , size DECIMAL(18,2)
+    , records INT
+    , duration DECIMAL(18,2)
+)
+GO
+
+SET STATISTICS IO, TIME ON
+SET NOCOUNT ON
+
+IF DB_ID('T610') IS NOT NULL BEGIN
+    ALTER DATABASE T610 SET SINGLE_USER WITH ROLLBACK IMMEDIATE
+    DROP DATABASE T610
+END
+GO
+
+CREATE DATABASE T610
+GO
+ALTER DATABASE T610 SET RECOVERY FULL
+GO
+BACKUP DATABASE T610 TO DISK = 'NUL'
+GO
+
+USE T610
+GO
+
+ALTER DATABASE T610 SET RECOVERY BULK_LOGGED -- SIMPLE
+GO
+
+CREATE TABLE table1 (col1 INT PRIMARY KEY, col2 CHAR(4000), col3 CHAR(1000))
+CREATE TABLE table2 (col1 INT PRIMARY KEY)
+GO
+
+INSERT INTO dbo.table2 WITH(TABLOCK) (col1)
+SELECT TOP(150000) id = ROW_NUMBER() OVER (ORDER BY 1/0)
+FROM [master].dbo.spt_values t1
+CROSS JOIN [master].dbo.spt_values t2
+GO
+
+--DBCC TRACEON(610)
+GO
+
+DECLARE @s DATETIME = GETDATE()
+
+INSERT INTO dbo.table1 WITH(TABLOCK) (col1)
+SELECT *
+FROM dbo.table2
+WHERE col1 BETWEEN 1 AND 50000
+
+DECLARE @e DATETIME = GETDATE()
+
+INSERT INTO #item
+SELECT SUM([log record length]) / 1024 / 1024., COUNT(1), DATEDIFF(MILLISECOND, @s, @e) / 1000.
+FROM fn_dblog(NULL, NULL)
+WHERE allocunitname LIKE '%table1%'
+GO
+
+DECLARE @s DATETIME = GETDATE()
+
+INSERT INTO dbo.table1 WITH(TABLOCK) (col1)
+SELECT *
+FROM dbo.table2
+WHERE col1 BETWEEN 50001 AND 100000
+
+DECLARE @e DATETIME = GETDATE()
+
+INSERT INTO #item
+SELECT SUM([log record length]) / 1024 / 1024., COUNT(1), DATEDIFF(MILLISECOND, @s, @e) / 1000.
+FROM fn_dblog(NULL, NULL)
+WHERE allocunitname LIKE '%table1%'
+GO
+
+DECLARE @s DATETIME = GETDATE()
+
+INSERT INTO dbo.table1 WITH(TABLOCK) (col1)
+SELECT *
+FROM dbo.table2
+WHERE col1 BETWEEN 100001 AND 150000
+
+DECLARE @e DATETIME = GETDATE()
+
+INSERT INTO #item
+SELECT SUM([log record length]) / 1024 / 1024., COUNT(1), DATEDIFF(MILLISECOND, @s, @e) / 1000.
+FROM fn_dblog(NULL, NULL)
+WHERE allocunitname LIKE '%table1%'
+GO
+
+--DECLARE @s DATETIME = GETDATE()
+
+--ALTER TABLE dbo.table1 ADD CONSTRAINT pk PRIMARY KEY CLUSTERED (col1)
+
+--DECLARE @e DATETIME = GETDATE()
+
+--INSERT INTO #item
+--SELECT SUM([log record length]) / 1024 / 1024., COUNT(1), DATEDIFF(MILLISECOND, @s, @e) / 1000.
+--FROM fn_dblog(NULL, NULL)
+--WHERE allocunitname LIKE '%table1%'
+--GO
+
+DBCC TRACEOFF(610)
+GO
+
+SELECT id
+     , size = size - ISNULL(LAG(size) OVER (ORDER BY id), 0)
+     , records = records - ISNULL(LAG(records) OVER (ORDER BY id), 0)
+     , duration
+FROM #item
+GO
+

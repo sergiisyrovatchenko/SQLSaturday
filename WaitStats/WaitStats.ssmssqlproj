@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="WaitStats">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="alm.westeurope.cloudapp.azure.com:ALM">
+          <Created>2016-11-22T12:10:03.5708221+03:00</Created>
+          <Type>SQL</Type>
+          <Server>alm.westeurope.cloudapp.azure.com</Server>
+          <UserName>ALM</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="HOMEPC\SQL_2016:HomePC\PC">
+          <Created>2016-10-25T08:21:36.6813772+03:00</Created>
+          <Type>SQL</Type>
+          <Server>HOMEPC\SQL_2016</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="00 - schedulers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>00 - schedulers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01 - wait stats.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01 - wait stats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02 - wait time.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02 - wait time.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03 - wait clear.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03 - wait clear.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04 - top(20) waits.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04 - top(20) waits.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05 - deadlock.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05 - deadlock.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06 - waiting tasks.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06 - waiting tasks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07 - lock table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07 - lock table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08 - select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08 - select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09 - session waits.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09 - session waits.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10 - realtime waits.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10 - realtime waits.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11 - check waits.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11 - check waits.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12 - CXPACKET.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12 - CXPACKET.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13 - SOS_SCHEDULER_YIELD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13 - SOS_SCHEDULER_YIELD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14 - RESOURCE_SEMAPHORE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14 - RESOURCE_SEMAPHORE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15 - RESOURCE_SEMAPHORE_QUERY_COMPILE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15 - RESOURCE_SEMAPHORE_QUERY_COMPILE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16 - PAGEIOLATCH.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16 - PAGEIOLATCH.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17 - PAGELATCH.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17 - PAGELATCH.sql</FullPath>
+        </FileNode>
+        <FileNode Name="18 - IO_COMPLETION+PREEMPTIVE_OS_WRITEFILEGATHER.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>18 - IO_COMPLETION+PREEMPTIVE_OS_WRITEFILEGATHER.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19 - WRITELOG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>19 - WRITELOG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20 - PREEMPTIVE_OS_FLUSHFILEBUFFERS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20 - PREEMPTIVE_OS_FLUSHFILEBUFFERS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="21 - ASYNC_NETWORK_IO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>21 - ASYNC_NETWORK_IO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="22 - BAD_PAGE_PROCESS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>22 - BAD_PAGE_PROCESS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="23 - OLEDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>23 - OLEDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="24 - BACKUPIO+BACKUPBUFFER.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>24 - BACKUPIO+BACKUPBUFFER.sql</FullPath>
+        </FileNode>
+        <FileNode Name="25 - TRACEWRITE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>25 - TRACEWRITE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="26 - QDS_ASYNC_QUEUE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>26 - QDS_ASYNC_QUEUE.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

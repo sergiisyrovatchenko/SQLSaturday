@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CommonSQLMistakes">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="HOMEPC\SQL_2017:HomePC\PC">
+          <Created>2017-09-25T21:10:49.6931258+03:00</Created>
+          <Type>SQL</Type>
+          <Server>HOMEPC\SQL_2017</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="00 - datatypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>00 - datatypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01 - oversizing and memory grant.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01 - oversizing and memory grant.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02 - prepare table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02 - prepare table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03 - cardinality.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03 - cardinality.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04 - bad stats.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04 - bad stats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05 - predicate pushdown.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05 - predicate pushdown.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06 - calculation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06 - calculation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07 - suppressed index.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07 - suppressed index.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08 - date filter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08 - date filter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09 - date format.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09 - date format.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10 - convert implicit.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10 - convert implicit.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11 - parameter sniffing.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11 - parameter sniffing.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12 - N.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12 - N.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13 - collate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13 - collate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14 - binary collate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14 - binary collate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15 - [var]char.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15 - [var]char.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16 - data length.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16 - data length.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17 - isnull vs coalesce.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17 - isnull vs coalesce.sql</FullPath>
+        </FileNode>
+        <FileNode Name="18 - math.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>18 - math.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19 - union [all].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>19 - union [all].sql</FullPath>
+        </FileNode>
+        <FileNode Name="20 - re-read.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20 - re-read.sql</FullPath>
+        </FileNode>
+        <FileNode Name="21 - subquery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>21 - subquery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="22 - set vs select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>22 - set vs select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="23 - not in.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>23 - not in.sql</FullPath>
+        </FileNode>
+        <FileNode Name="24 - agg.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>24 - agg.sql</FullPath>
+        </FileNode>
+        <FileNode Name="25 - case.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>25 - case.sql</FullPath>
+        </FileNode>
+        <FileNode Name="26 - scalar udf.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>26 - scalar udf.sql</FullPath>
+        </FileNode>
+        <FileNode Name="27 - table udf.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>27 - table udf.sql</FullPath>
+        </FileNode>
+        <FileNode Name="28 - inline udf.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>28 - inline udf.sql</FullPath>
+        </FileNode>
+        <FileNode Name="29 - views.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>29 - views.sql</FullPath>
+        </FileNode>
+        <FileNode Name="30 - cursor.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>30 - cursor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="31 - string concat.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>31 - string concat.sql</FullPath>
+        </FileNode>
+        <FileNode Name="32 - sql injection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>32 - sql injection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="33 - temp tables and variables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>33 - temp tables and variables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="34 - insert exec.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>34 - insert exec.sql</FullPath>
+        </FileNode>
+        <FileNode Name="35 - insert into.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>35 - insert into.sql</FullPath>
+        </FileNode>
+        <FileNode Name="36 - unique index, merge and tempdb.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>36 - unique index, merge and tempdb.sql</FullPath>
+        </FileNode>
+        <FileNode Name="37 - spool, tempdb and index.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>37 - spool, tempdb and index.sql</FullPath>
+        </FileNode>
+        <FileNode Name="38 - nested tran and rollback.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>38 - nested tran and rollback.sql</FullPath>
+        </FileNode>
+        <FileNode Name="39 - star+alias+order.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>39 - star+alias+order.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

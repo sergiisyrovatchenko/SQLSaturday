@@ -1,0 +1,496 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="XML">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="HOMEPC\SQL_2008R2:HOMEPC\HomePC">
+          <Created>2017-01-19T11:31:33.3347255+02:00</Created>
+          <Type>SQL</Type>
+          <Server>HOMEPC\SQL_2008R2</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="HOMEPC\SQL_2008R2_EXP:HOMEPC\HomePC">
+          <Created>2017-01-13T12:48:00.8150083+02:00</Created>
+          <Type>SQL</Type>
+          <Server>HOMEPC\SQL_2008R2_EXP</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="HOMEPC\SQL_2016:HOMEPC\HomePC">
+          <Created>2016-11-21T17:10:25.6416094+02:00</Created>
+          <Type>SQL</Type>
+          <Server>HOMEPC\SQL_2016</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="HOMEPC\SQL_2017:HOMEPC\HomePC">
+          <Created>2017-11-17T13:35:44.0766376+02:00</Created>
+          <Type>SQL</Type>
+          <Server>HOMEPC\SQL_2017</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="HOMEPC\SQL_2019:HOMEPC\HomePC">
+          <Created>2020-02-27T10:19:37.7951175+02:00</Created>
+          <Type>SQL</Type>
+          <Server>HOMEPC\SQL_2019</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="00 - unicode.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>00 - unicode.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01 - xml vs string.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01 - xml vs string.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02 - nodes vs attrubutes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02 - nodes vs attrubutes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03 - storage engine.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03 - storage engine.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04 - optimization xml storage.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04 - optimization xml storage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05 - xml schema collection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05 - xml schema collection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06 - xml schema storage issue.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06 - xml schema storage issue.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07 - clr compress.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07 - clr compress.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08 - compress.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08 - compress.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09 - [de]compress issue.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09 - [de]compress issue.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10 - columnstore and compression.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10 - columnstore and compression.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11 - for xml raw.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11 - for xml raw.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12 - for xml auto.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12 - for xml auto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13 - for xml explicit.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13 - for xml explicit.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14 - for xml path.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14 - for xml path.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15 - custom xml.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15 - custom xml.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16 - xml reconstruction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16 - xml reconstruction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17 - modify and recreating.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17 - modify and recreating.sql</FullPath>
+        </FileNode>
+        <FileNode Name="18 - xml concat.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>18 - xml concat.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19 - html.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>19 - html.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20 - base64.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20 - base64.sql</FullPath>
+        </FileNode>
+        <FileNode Name="21 - xml size and tempdb issue.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>21 - xml size and tempdb issue.sql</FullPath>
+        </FileNode>
+        <FileNode Name="22 - string concat.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>22 - string concat.sql</FullPath>
+        </FileNode>
+        <FileNode Name="23 - string concat n columns.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>23 - string concat n columns.sql</FullPath>
+        </FileNode>
+        <FileNode Name="24 - string split.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>24 - string split.sql</FullPath>
+        </FileNode>
+        <FileNode Name="25 - unpivot.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>25 - unpivot.sql</FullPath>
+        </FileNode>
+        <FileNode Name="26 - openxml and xquery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>26 - openxml and xquery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="27 - sp_xml_preparedocument and tempdb.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>27 - sp_xml_preparedocument and tempdb.sql</FullPath>
+        </FileNode>
+        <FileNode Name="28 - sp_xml_removedocument and memory leaks.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>28 - sp_xml_removedocument and memory leaks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="29 - query, exist and value.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>29 - query, exist and value.sql</FullPath>
+        </FileNode>
+        <FileNode Name="30 - openxml vs xquery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>30 - openxml vs xquery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="31 - text() and [1].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>31 - text() and [1].sql</FullPath>
+        </FileNode>
+        <FileNode Name="32 - reduce xquery usage.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>32 - reduce xquery usage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="33 - value vs exist.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>33 - value vs exist.sql</FullPath>
+        </FileNode>
+        <FileNode Name="34 - contains.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>34 - contains.sql</FullPath>
+        </FileNode>
+        <FileNode Name="35 - namespace.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>35 - namespace.sql</FullPath>
+        </FileNode>
+        <FileNode Name="36 - collations.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>36 - collations.sql</FullPath>
+        </FileNode>
+        <FileNode Name="37 - comparison.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>37 - comparison.sql</FullPath>
+        </FileNode>
+        <FileNode Name="38 - unknown path.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>38 - unknown path.sql</FullPath>
+        </FileNode>
+        <FileNode Name="39 - recursion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>39 - recursion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="40 - computed column.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>40 - computed column.sql</FullPath>
+        </FileNode>
+        <FileNode Name="41 - column set.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>41 - column set.sql</FullPath>
+        </FileNode>
+        <FileNode Name="42 - xml indexes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>42 - xml indexes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="43 - selective xml indexes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>43 - selective xml indexes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="44 - xml filter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>44 - xml filter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="45 - prepare xml file.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>45 - prepare xml file.sql</FullPath>
+        </FileNode>
+        <FileNode Name="46 - voodoo magic issue.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>46 - voodoo magic issue.sql</FullPath>
+        </FileNode>
+        <FileNode Name="47 - get parent issue.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>47 - get parent issue.sql</FullPath>
+        </FileNode>
+        <FileNode Name="48 - convert and bulk insert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>48 - convert and bulk insert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="49 - xml vs convert into xml.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>49 - xml vs convert into xml.sql</FullPath>
+        </FileNode>
+        <FileNode Name="50 - double execution.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>50 - double execution.sql</FullPath>
+        </FileNode>
+        <FileNode Name="51 - table spool.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>51 - table spool.sql</FullPath>
+        </FileNode>
+        <FileNode Name="52 - insert + xml.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2008R2_EXP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2008R2_EXP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>52 - insert + xml.sql</FullPath>
+        </FileNode>
+        <FileNode Name="53 - lob issues.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2008R2_EXP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2008R2_EXP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>53 - lob issues.sql</FullPath>
+        </FileNode>
+        <FileNode Name="54 - prepare big xml files.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>54 - prepare big xml files.sql</FullPath>
+        </FileNode>
+        <FileNode Name="55 - openxml vs xquery I.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>55 - openxml vs xquery I.sql</FullPath>
+        </FileNode>
+        <FileNode Name="56 - xml bulk load I.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>56 - xml bulk load I.sql</FullPath>
+        </FileNode>
+        <FileNode Name="57 - prepare schema.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>57 - prepare schema.sql</FullPath>
+        </FileNode>
+        <FileNode Name="58 - openxml vs xquery II.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>58 - openxml vs xquery II.sql</FullPath>
+        </FileNode>
+        <FileNode Name="59 - xml bulk load II.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>59 - xml bulk load II.sql</FullPath>
+        </FileNode>
+        <FileNode Name="60 - stackoverflow 4Gb.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>60 - stackoverflow 4Gb.sql</FullPath>
+        </FileNode>
+        <FileNode Name="61 - aggregate nodes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>61 - aggregate nodes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="62 - remove html tags.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>62 - remove html tags.sql</FullPath>
+        </FileNode>
+        <FileNode Name="63 - rows into nodes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>63 - rows into nodes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="64 - xml in group.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>64 - xml in group.sql</FullPath>
+        </FileNode>
+        <FileNode Name="65 - xevent.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>65 - xevent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="66 - for xml perfomance.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>66 - for xml perfomance.sql</FullPath>
+        </FileNode>
+        <FileNode Name="67 - text() and empty tags.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>67 - text() and empty tags.sql</FullPath>
+        </FileNode>
+        <FileNode Name="68 - generate empty tags.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>68 - generate empty tags.sql</FullPath>
+        </FileNode>
+        <FileNode Name="69 - xquery vs openxml (2008 vs 2019).sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>69 - xquery vs openxml (2008 vs 2019).sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

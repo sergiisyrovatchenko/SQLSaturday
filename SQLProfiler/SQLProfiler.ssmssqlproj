@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQLProfiler">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="HOMEPC\SQL_2016:HomePC\PC">
+          <Created>2017-03-05T11:41:25.0718409+03:00</Created>
+          <Type>SQL</Type>
+          <Server>HOMEPC\SQL_2016</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="00 - sql profiler.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>00 - sql profiler.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01 - prepare data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01 - prepare data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02 - workload.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02 - workload.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03 - ostress.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03 - ostress.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04 - analyze workload.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04 - analyze workload.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05 - sql injection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05 - sql injection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06 - convert implicit.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06 - convert implicit.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07 - filtering.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07 - filtering.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08 - parameter sniffing.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08 - parameter sniffing.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09 - compilations.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09 - compilations.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10 - re-compilations.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10 - re-compilations.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11 - scalar udf.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11 - scalar udf.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12 - trace perfomance.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12 - trace perfomance.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13 - default trace.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13 - default trace.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14 - deadlock read.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14 - deadlock read.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15 - deadlock update.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2016:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOMEPC\SQL_2016</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15 - deadlock update.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

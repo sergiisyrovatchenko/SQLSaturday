@@ -1,0 +1,18 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:sql="urn:schemas-microsoft-com:mapping-schema">
+   <xsd:element name="badges" sql:is-constant="1" >
+     <xsd:complexType>
+       <xsd:sequence>
+         <xsd:element name="row" sql:relation="Badges" maxOccurs="unbounded">
+            <xsd:complexType>
+               <xsd:attribute name="Id" type="xsd:integer" />
+               <xsd:attribute name="UserId" type="xsd:integer" />
+               <xsd:attribute name="Name" type="xsd:string" />
+               <xsd:attribute name="Date" type="xsd:dateTime" sql:datatype="dateTime" />
+               <xsd:attribute name="Class" type="xsd:integer" />
+               <xsd:attribute name="TagBased" type="xsd:boolean" />
+            </xsd:complexType>
+         </xsd:element>
+       </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

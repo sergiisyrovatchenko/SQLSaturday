@@ -1,0 +1,25 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:sql="urn:schemas-microsoft-com:mapping-schema">
+   <xsd:element name="Products" sql:is-constant="1" >
+     <xsd:complexType>
+       <xsd:sequence>
+         <xsd:element name="Product" sql:relation="Products" maxOccurs="unbounded">
+           <xsd:complexType>
+             <xsd:sequence>
+               <xsd:element name="ProductID" type="xsd:integer" sql:key-fields="ProductID" />
+               <xsd:element name="Name" type="xsd:string" />
+               <xsd:element name="ProductNumber" type="xsd:integer" />
+               <xsd:element name="OrderQty" type="xsd:string" />
+               <xsd:element name="UnitPrice" type="xsd:decimal" />
+               <xsd:element name="ListPrice" type="xsd:decimal" />
+               <xsd:element name="Color" type="xsd:string" sql:is-constant="true" />
+               <xsd:element name="MakeFlag" type="xsd:boolean" />
+               <xsd:element name="FinishedGoodsFlag" type="xsd:boolean" sql:field="FinishedGoods" />
+               <xsd:element name="StandardCost" type="xsd:decimal" />
+               <xsd:element name="StartPrice" type="xsd:decimal" sql:mapped="false" />
+             </xsd:sequence>
+           </xsd:complexType>
+         </xsd:element>
+       </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

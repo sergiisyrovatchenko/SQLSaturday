@@ -1,0 +1,42 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:sql="urn:schemas-microsoft-com:mapping-schema">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <sql:relationship name="Orders_OrderDetails" parent="Orders" parent-key="SalesOrderID" child="OrderDetails" child-key="SalesOrderID" />
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:element name="Orders" sql:is-constant="1">
+     <xsd:complexType>
+       <xsd:sequence>
+         <xsd:element name="Order" sql:relation="Orders" maxOccurs="unbounded">
+           <xsd:complexType>
+             <xsd:sequence>
+               <xsd:element name="OrderDate" type="xsd:dateTime" sql:datatype="dateTime" />
+               <xsd:element name="ShipDate" type="xsd:dateTime" sql:datatype="dateTime" />
+               <xsd:element name="Products" sql:is-constant="1" minOccurs="1" maxOccurs="1">
+                 <xsd:complexType>
+                   <xsd:sequence>
+                     <xsd:element name="Product" sql:relation="OrderDetails" sql:relationship="Orders_OrderDetails" minOccurs="1" maxOccurs="unbounded">
+                       <xsd:complexType>
+                         <xsd:sequence>
+                           <xsd:element name="ProductID" type="xsd:int" />
+                           <xsd:element name="Name" type="xsd:string" />
+                           <xsd:element name="ProductNumber" type="xsd:string" />
+                           <xsd:element name="OrderQty" type="xsd:int" />
+                           <xsd:element name="UnitPrice" type="xsd:decimal" />
+                         </xsd:sequence>
+                       </xsd:complexType>
+                     </xsd:element>
+                   </xsd:sequence>
+                 </xsd:complexType>
+               </xsd:element>
+             </xsd:sequence>
+             <xsd:attribute name="ID" type="xsd:integer" sql:field="SalesOrderID" />
+             <xsd:attribute name="AccountNumber" type="xsd:string" />
+             <xsd:attribute name="SubTotal" type="xsd:decimal" />
+             <xsd:attribute name="TaxAmt" type="xsd:decimal" />
+           </xsd:complexType>
+         </xsd:element>
+       </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

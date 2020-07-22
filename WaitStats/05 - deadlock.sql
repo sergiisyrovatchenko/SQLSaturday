@@ -1,0 +1,13 @@
+USE tempdb
+GO
+
+BEGIN TRANSACTION
+
+    CREATE TYPE dbo.IntValues AS TABLE (Id INT PRIMARY KEY)
+    GO
+
+    DECLARE @t dbo.IntValues
+    INSERT INTO @t (Id) VALUES (1)
+    GO
+
+COMMIT TRANSACTION

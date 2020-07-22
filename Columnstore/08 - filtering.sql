@@ -1,0 +1,31 @@
+USE CCI
+GO
+
+DROP TABLE IF EXISTS #Param
+
+SELECT DISTINCT TOP(50) RowID_Datetime
+INTO #Param
+FROM dbo.tCCI
+
+SET STATISTICS IO, TIME ON
+
+SELECT CustomerID, SUM(UnitPrice)
+FROM dbo.tCCI
+WHERE RowID_Datetime IN (SELECT * FROM #Param)
+GROUP BY CustomerID
+OPTION(MAXDOP 1)
+
+DECLARE @SQL NVARCHAR(MAX) = '
+SELECT CustomerID, SUM(UnitPrice)
+FROM dbo.tCCI
+WHERE RowID_Datetime IN (' + 
+    (SELECT STRING_AGG('''' + CAST(CONVERT(CHAR(8), RowID_Datetime, 112) AS VARCHAR(MAX)) + '''', ',') FROM #Param) 
++ ')
+GROUP BY CustomerID
+OPTION(MAXDOP 1)
+'
+
+EXEC sys.sp_executesql @SQL
+
+
+SET STATISTICS IO, TIME OFF

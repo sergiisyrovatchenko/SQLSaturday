@@ -1,0 +1,9 @@
+SELECT @@version
+
+BACKUP DATABASE [master] TO DISK = N'D:\BACKUP\master.bak' WITH NOFORMAT, INIT
+BACKUP DATABASE [model] TO DISK = N'D:\BACKUP\model.bak' WITH NOFORMAT, INIT
+BACKUP DATABASE [msdb] TO DISK = N'D:\BACKUP\msdb.bak' WITH NOFORMAT, INIT
+
+/*
+    C:\Program Files\Microsoft SQL Server\MSSQL13.SQL_2016\MSSQL\DATA\*
+*/

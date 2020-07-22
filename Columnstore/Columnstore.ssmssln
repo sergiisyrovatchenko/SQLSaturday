@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Columnstore", "Columnstore.ssmssqlproj", "{B968F50C-F2CF-44CD-B129-0AAB8DC28A1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B968F50C-F2CF-44CD-B129-0AAB8DC28A1B}.Default|Default.ActiveCfg = Default
+		{1AB15426-EC92-49B5-852F-877946D8181E}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8747DD53-103A-4E02-AAC9-383C5EB9A11F}
+	EndGlobalSection
+EndGlobal
