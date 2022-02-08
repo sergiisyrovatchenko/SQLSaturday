@@ -23,5 +23,5 @@ SET STATISTICS IO, TIME OFF
     Table 'tCCI'. ..., lob logical reads 21789, lob physical reads 0, lob read-ahead reads 0.
     Table 'tCCI'. Segment reads 7, segment skipped 0.
     SQL Server Execution Times:
-       CPU time = 766 ms,  elapsed time = 313 ms.
+       CPU time = 672 ms,  elapsed time = 671 ms.
 */

@@ -3,22 +3,10 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="HOMEPC\SQL_2012:HOMEPC\HomePC">
-          <Created>2019-09-27T20:12:41.0323048+03:00</Created>
+        <ConnectionNode Name="(local):GTECH\sergii.sy">
+          <Created>2022-02-04T09:15:33.9791088+02:00</Created>
           <Type>SQL</Type>
-          <Server>HOMEPC\SQL_2012</Server>
-          <UserName />
-          <Authentication>Windows Authentication</Authentication>
-          <InitialDB />
-          <LoginTimeout>30</LoginTimeout>
-          <ExecutionTimeout>0</ExecutionTimeout>
-          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
-        </ConnectionNode>
-        <ConnectionNode Name="HOMEPC\SQL_2017:HOMEPC\HomePC">
-          <Created>2019-09-27T19:35:47.4055024+03:00</Created>
-          <Type>SQL</Type>
-          <Server>HOMEPC\SQL_2017</Server>
+          <Server>(local)</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
           <InitialDB />
@@ -32,52 +20,88 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="00 - sql server 2012.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2012:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HOMEPC\SQL_2012</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>00 - sql server 2012.sql</FullPath>
         </FileNode>
         <FileNode Name="01 - prepare database.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>01 - prepare database.sql</FullPath>
         </FileNode>
         <FileNode Name="02 - compression.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>02 - compression.sql</FullPath>
         </FileNode>
         <FileNode Name="03 - performance.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>03 - performance.sql</FullPath>
         </FileNode>
-        <FileNode Name="04 - row group elimination.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+        <FileNode Name="04 - pre-aggregation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>04 - row group elimination.sql</FullPath>
+          <FullPath>04 - pre-aggregation.sql</FullPath>
         </FileNode>
-        <FileNode Name="05 - pre-aggregation.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+        <FileNode Name="05 - local aggregation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>05 - pre-aggregation.sql</FullPath>
+          <FullPath>05 - local aggregation.sql</FullPath>
         </FileNode>
-        <FileNode Name="06 - computed scalar.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+        <FileNode Name="06 - row group elimination.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>06 - computed scalar.sql</FullPath>
+          <FullPath>06 - row group elimination.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOMEPC\SQL_2017:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HOMEPC\SQL_2017</AssociatedConnSrvName>
+        <FileNode Name="07 - computed scalar.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
+          <FullPath>07 - computed scalar.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08 - batch mode.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08 - batch mode.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09 - null.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09 - null.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10 - filtering.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10 - filtering.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11 - computed columns.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11 - computed columns.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12 - indexes view and ncci.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12 - indexes view and ncci.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17 - blocking.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17 - blocking.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

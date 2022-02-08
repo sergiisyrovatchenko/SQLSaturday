@@ -2,17 +2,17 @@ USE [master]
 GO
 
 IF DB_ID('CCI') IS NOT NULL BEGIN
-    ALTER DATABASE [CCI] SET SINGLE_USER WITH ROLLBACK IMMEDIATE
-    DROP DATABASE [CCI]
+    ALTER DATABASE CCI SET SINGLE_USER WITH ROLLBACK IMMEDIATE
+    DROP DATABASE CCI
 END
 GO
 
-CREATE DATABASE [CCI] ON
-    PRIMARY (NAME = N'CCI', FILENAME = N'X:\CCI.mdf', SIZE = 3GB, FILEGROWTH = 64MB)
-    LOG ON (NAME = N'CCI_log', FILENAME = N'X:\CCI_log.ldf', SIZE = 512MB, FILEGROWTH = 64MB)
+CREATE DATABASE CCI ON
+    PRIMARY (NAME = N'CCI', FILENAME = N'C:\DB\CCI.mdf', SIZE = 3GB, FILEGROWTH = 64MB)
+    LOG ON (NAME = N'CCI_log', FILENAME = N'C:\DB\CCI_log.ldf', SIZE = 512MB, FILEGROWTH = 64MB)
 GO
 
-ALTER DATABASE [CCI] SET RECOVERY SIMPLE
+ALTER DATABASE CCI SET RECOVERY SIMPLE
 GO
 
 ---------------------------------------------------------------------------------------------------------
@@ -26,6 +26,7 @@ GO
 CREATE TABLE dbo.tHeap (
     RowID INT NOT NULL,
     RowID_Varchar VARCHAR(100) NOT NULL,
+    RowID_NVarcharMax NVARCHAR(MAX) NOT NULL,
     RowID_Datetime DATETIME NULL,
     SalesOrderID INT NOT NULL,
     SalesOrderDetailID INT NOT NULL,
@@ -41,13 +42,15 @@ CREATE TABLE dbo.tHeap (
     ShipDate DATETIME NULL,
     SalesOrderNumber NVARCHAR(25) NOT NULL,
     PurchaseOrderNumber NVARCHAR(25) NULL,
-    CustomerID INT NOT NULL
+    CustomerID INT NOT NULL,
+    TotalSum MONEY NOT NULL
 )
 GO
 
 INSERT INTO dbo.tHeap
 SELECT TOP(5000000) RowID = ROW_NUMBER() OVER (ORDER BY 1/0)
                   , RowID_Varchar = CAST(ROW_NUMBER() OVER (ORDER BY 1/0) AS VARCHAR(100))
+                  , RowID_NVarcharMax = CAST(ROW_NUMBER() OVER (ORDER BY 1/0) AS VARCHAR(100))
                   , RowID_Datetime = DATEADD(DAY, ROW_NUMBER() OVER (ORDER BY 1/0) % 100, '20180101')
                   , sd.SalesOrderID
                   , sd.SalesOrderDetailID
@@ -64,9 +67,9 @@ SELECT TOP(5000000) RowID = ROW_NUMBER() OVER (ORDER BY 1/0)
                   , soh.SalesOrderNumber
                   , soh.PurchaseOrderNumber
                   , soh.CustomerID
-
-FROM AdventureWorks2016.Sales.SalesOrderDetail sd
-JOIN AdventureWorks2016.Sales.SalesOrderHeader soh ON sd.SalesOrderID = soh.SalesOrderID
+                  , sd.OrderQty * sd.UnitPrice
+FROM AdventureWorks2019.Sales.SalesOrderDetail sd
+JOIN AdventureWorks2019.Sales.SalesOrderHeader soh ON sd.SalesOrderID = soh.SalesOrderID
 CROSS JOIN (SELECT TOP(100) 1 FROM sys.objects) t(a)
 GO
 
